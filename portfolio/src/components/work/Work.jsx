@@ -31,7 +31,7 @@ const Work = () => {
             {projectsNav.map((item, index) => {
                 return <span onClick={(e) => {
                     handleClick(e, index);
-                }} className={`${active === index ? 'active-work' : ""} "work__item"`} key={index}>{item.name}</span>
+                }} className={`work__item ${active === index ? "active-work" : ""}`} key={index}>{item.name}</span>
             })}
         </div>
         <div className="work__container container grid">

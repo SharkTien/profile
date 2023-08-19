@@ -1,40 +1,22 @@
 import Work1 from "../../assets/work1.jpg";
 import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import WorkFile1 from "../../assets/astraea©sharktien.docx";
 
 export const projectsData = [
     {
         id: 1,
         image: Work1,
-        title: 'Web Design',
+        title: 'Spotengfy - Music player - 2023',
         category: 'web',
+        link: "https://sharktien.github.io/spotengfy/"
     },
     {
         id: 2,
         image: Work2,
-        title: 'App movil',
-        category: 'app',
-    },
-    {
-        id: 3,
-        image: Work3,
-        title: 'Brand Design',
+        title: 'Astraea - 2021',
         category: 'design',
-    },
-    {
-        id: 4,
-        image: Work4,
-        title: 'Web Design',
-        category: 'web',
-    },
-    {
-        id: 5,
-        image: Work5,
-        title: 'Web Design',
-        category: 'web',
-    }    
+        link: WorkFile1,
+    }
 ];
 
 export const projectsNav = [
@@ -45,9 +27,9 @@ export const projectsNav = [
         name: 'web',
     },
     {
-        name: 'app',
+        name: 'design',
     },
     {
-        name: 'design',
+        name: 'teaching',
     }
 ]
