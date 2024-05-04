@@ -54,9 +54,9 @@ const Data = () => {
                   ></path>
                 </svg>
             </h1>
-            <h3 className="home__subtitle">Programmer & Teaching Assistant</h3>
+            <h3 className="home__subtitle">Programmer</h3>
             <p className="home__description">I'm a creative programmer based in Viet Nam, and I'm very passionate,
-            enthusiastic and dedicated to my work. <br /> I have years of experience teaching English and programming.
+            enthusiastic and dedicated to my work. <br /> I have years of experience programming.
             </p>
             <a href="#contact" className="button button--flex">Contact Me
               <svg

@@ -15,7 +15,7 @@
 }
 
 .work__item:hover {
-    background-color: var(--title-color);
+    background-color: var(--title-color-dark);
     color: var(--container-color);
 }
 
@@ -34,6 +34,8 @@
 
 .work__img {
     width: 295px;
+    height: 200px;
+    background-size: cover;
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
 }
@@ -61,8 +63,8 @@
     transform: translateX(0.25rem);
 }
 
-.act    ive-work {
-    background-color: var(--title-color);
+.active-work {
+    background-color: var(--title-color-dark);
     color: var(--container-color);
 }
 
